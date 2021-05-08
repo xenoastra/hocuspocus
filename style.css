@@ -68,7 +68,7 @@ nav {
     /* right: 10%;
     top: 50%; */
     /* transform: translateY(-100%); */
-    transform: translate(1100%, 450%);
+    transform: translate(1050%, 450%);
     cursor: pointer;
     /* position: absolute; */
     z-index: 2;
@@ -217,7 +217,7 @@ nav {
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    transform: translate(1600%, 1020%);
+    transform: translate(1450%, 1020%);
     cursor: pointer;
     /* position: absolute;
     z-index: 2; */
