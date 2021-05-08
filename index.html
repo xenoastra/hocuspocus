@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,81 +6,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Design</title>
-    <link rel="stylesheet" href="style.css">
+    <title>HocusPocus</title>
+    <link rel="stylesheet" href="text.css">
+    <style>
+        img {
+            max-width: 65%;
+            max-height: 65%;
+        }
+    </style>
+
 </head>
 
 <body>
     <div class="main">
-        <!-- <nav></nav> -->
-        <div class="refresh">
-            <img src="restart.png" id="refresh">
-        </div>
-        <button onclick="window.location.href='text.html';" class="back">Back</button>
-        <button onclick="window.location.href='https://unidebnath.wixsite.com/aksharadebprot';" class="link">
-            Next Game
-            </button>
+        <button onclick="window.location.href='main.html';" class="link">Next Game</button>
+        <button onClick="window.location.reload();" class="play">Play Again</button>
+        <div class="featureOne"><img src="head.jpg"></div>
+        <div class="featureTwo"><img src="ins.jpg"></div>
+        <div class="imgOne"><img src="three.png"></div>
+        <div class="imgTwo"><img src="one.png"></div>
+        <div class="imgThree"><img src="two.png"></div>
+        <audio><source src="hellow.mp3" type="audio/mpeg">
+        <embed src="hellow.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" /></audio>
+        <!-- <div class="right"><img src="right.png"></div> -->
 
-        <!-- </nav> -->
-
-        <div class="container">
-            <span class="text1">Magic Potions</span>
-            <span class="text2">Add the right potion into the pot</span>
-        </div>
-
-        <div class="ingredients">
-            <div class="overlay"></div>
-            <img src="pictures/pot1.png" class="pot">
-            <div id="circle">
-                <div class="feature one">
-                    <img src="pictures/bottle.png" id="bottle1">
-                    <div>
-                        <h1>Potion 1</h1>
-                        <p>Human blood</p>
-                    </div>
-                </div>
-                <div class="feature two">
-                    <img src="pictures/bottle1.png" id="bottle2">
-                    <div>
-                        <h1>Potion 4</h1>
-                        <p>Frog eyes</p>
-                    </div>
-                </div>
-                <div class="feature three">
-                    <img src="pictures/bottle2.png" id="bottle3">
-                    <div>
-                        <h1>Potion 3</h1>
-                        <p>Crushed bones</p>
-                    </div>
-                </div>
-                <div class="feature four">
-                    <img src="pictures/bottle3.png" id="bottle4">
-                    <div>
-                        <h1>Potion 2</h1>
-                        <p>Black cat hair</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="controls">
-            <img src="pictures/down-arrow.png" id="upward">
-            <h3>Scroll</h3>
-            <img src="pictures/down-arrow.png" id="downward">
-        </div>
-
-        <!-- <button class="button" value = 'play'>Add</button> -->
-        <button onclick="showAlert()" class="button">Add</button>
-        <audio><source src="rain.mp3" type="audio/mpeg">
-        <embed src="rain.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" /></audio>
+        <!-- <audio controls autoplay loop>
+            <source src="hellow.mp3" type="audio/ogg">
+            <embed src="hellow.mp3" autostart="true" loop="true" hidden="true"> 
+        </audio> -->
 
     </div>
-
-
-
-    <script src="script.js"></script>
-
-
+    </div>
 </body>
 
 </html>
