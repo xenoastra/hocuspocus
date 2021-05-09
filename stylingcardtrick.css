@@ -1,0 +1,303 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lora;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+.img{
+    padding: 0;
+    display: block; 
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.main{
+    width: 240vh;
+    height: 110vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url("picturevanessa/cardgamebackground.jpg");
+    left: -10%;
+    margin-top: -1cm;
+    
+   
+}
+.fit {
+    max-width: 100%;
+    max-height: 85%;
+    background-image: url("picturevanessa/cardgamebackground.jpg");
+  }
+  
+.cardo {
+    background-color: transparent;
+    color: #3866e6;
+    text-align: center;
+    position: fixed;
+    top: 260px;
+    left: -380px;
+    width: 150%;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    font-size: 1160;
+    
+    
+}
+
+.div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+  }
+ 
+  .container{
+    text-align: center;
+    transform: translateY(60%);
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    font-size: 50px;
+    top: 20px;
+}
+.container span{
+    animation: text 6s 1;
+    display: block;
+}
+@keyframes text {
+    0%{
+        color: transparent;
+    }
+    30%{
+        letter-spacing: 5px;
+    }
+    75%{
+        letter-spacing: 8px;
+    }
+}
+.h1{
+    color: rgb(248, 250, 248);
+    margin-top: 20px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    background: transparent;
+    top: 250px;
+    }
+
+#cardsa{
+    background-color: transparent;
+    height: 200px;
+    left: 35%;
+    margin: top -100px;
+    margin-left: -125px;
+    position: absolute;
+    top: 50%;
+   
+}
+.cardsb{
+    background-color: transparent;
+    height: 200px;
+    left: 35%;
+    margin: top -100px;
+    margin-left: -200px;
+    position: absolute;
+    top: 50%;
+}
+/* .h3{
+    text-align: center;
+} */
+.play {
+    background: #8934d9;
+    background-image: -webkit-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -moz-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -ms-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -o-linear-gradient(top, #3866e6, #8868fa);
+    background-image: linear-gradient(to bottom, #3866e6, #8868fa);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    transform: translate(950%, 1300%);
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}
+
+.play:hover {
+    background: #e2d7b9;
+    background-image: -webkit-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: -moz-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: -ms-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: -o-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: linear-gradient(to bottom, #e2d7b9, #ad841d);
+    text-decoration: none;
+}
+
+
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px 100px;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+.button {
+    /* background-color: #6a61f1; */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 150px;
+    left: 56%;
+    margin:  250px;
+    margin-left: -125px;
+    position: absolute;
+    top: 150%;
+    cursor: pointer;
+    background: #6a61f1;
+    background-image: -webkit-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -moz-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -ms-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -o-linear-gradient(top, #3866e6, #8868fa);
+    background-image: linear-gradient(to bottom, #3866e6, #8868fa);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    z-index: 2;
+}
+.button:hover {
+    background: #e2d7b9;
+    background-image: -webkit-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: -moz-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: -ms-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: -o-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: linear-gradient(to bottom, #e2d7b9, #ad841d);
+    text-decoration: none;
+}
+.continue{
+    background: #8934d9;
+    background-image: -webkit-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -moz-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -ms-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -o-linear-gradient(top, #3866e6, #8868fa);
+    background-image: linear-gradient(to bottom, #3866e6, #8868fa);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    transform: translate(500%, 1300%);
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    
+}
+.continue:hover {
+    background: #e2d7b9;
+    background-image: -webkit-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: -moz-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: -ms-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: -o-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: linear-gradient(to bottom, #e2d7b9, #ad841d);
+    text-decoration: none;
+}
+.playallgamesagain{
+    background: #8934d9;
+    background-image: -webkit-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -moz-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -ms-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -o-linear-gradient(top, #3866e6, #8868fa);
+    background-image: linear-gradient(to bottom, #3866e6, #8868fa);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    transform: translate(600%, 1300%);
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}
+input[type="button"]:after {
+    content: url("picturevanessa/cards-face-b.png.");
+    display: block;
+}
+
+
+    
+/* #circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #ccc;
+} */
+
+
+.click{
+    background: #8934d9;
+    background-image: -webkit-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -moz-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -ms-linear-gradient(top, #3866e6, #8868fa);
+    background-image: -o-linear-gradient(top, #3866e6, #8868fa);
+    background-image: linear-gradient(to bottom, #3866e6, #8868fa);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    transform: translate(800%, 1300%);
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}
+.click:hover {
+    background: #e2d7b9;
+    background-image: -webkit-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: -moz-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: -ms-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: -o-linear-gradient(top, #e2d7b9, #ad841d);
+    background-image: linear-gradient(to bottom, #e2d7b9, #ad841d);
+    text-decoration: none;
+}

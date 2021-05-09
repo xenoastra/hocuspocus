@@ -5,6 +5,17 @@
     /* font-family: 'Courier New', Courier, monospace; */
 }
 
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+
 .main {
     width: 100%;
     height: 100vh;
