@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    /* background-color: black; */
+    background-image: url("back.jpg");
+}
+
+.header {
+    color: transparent;
+}
+
+.link {
+    background: #8934d9;
+    background-image: -webkit-linear-gradient(top, #a19f8a, #968aa1);
+    background-image: -moz-linear-gradient(top, #968aa1, #968aa1);
+    background-image: -ms-linear-gradient(top, #968aa1, #968aa1);
+    background-image: -o-linear-gradient(top, #968aa1, #968aa1);
+    background-image: linear-gradient(to bottom, #968aa1, #968aa1);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    transform: translate(450%, 850%);
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    animation: fadeIn 7s;
+    -webkit-animation: fadeIn 7s;
+    -moz-animation: fadeIn 7s;
+    -o-animation: fadeIn 7s;
+    -ms-animation: fadeIn 7s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.link:hover {
+    background: #1d1c1a;
+    background-image: -webkit-linear-gradient(top, #1d1c1a, #1d1c1a);
+    background-image: -moz-linear-gradient(top, #1d1c1a, #1d1c1a);
+    background-image: -ms-linear-gradient(top, #1d1c1a, #1d1c1a);
+    background-image: -o-linear-gradient(top, #1d1c1a, #1d1c1a);
+    background-image: linear-gradient(to bottom, #1d1c1a, #1d1c1a);
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+    transform: translateY(50%);
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+.container span { 
+    animation: text 4s 1;
+    display: block;
+}
+
+.text1 {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.text2 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(206, 199, 201);
+}
+
+@keyframes text {
+    0% {
+        color: transparent;
+    }
+    30% {
+        letter-spacing: 25px;
+    }
+    75% {
+        letter-spacing: 8px;
+    }
+}

@@ -1,143 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HocusPocus</title>
-    <link rel="stylesheet" href="text.css">
-    <link rel="icon" href="hat.png">
-    <style>
-        img {
-            max-width: 65%;
-            max-height: 65%;
-        }
-    </style>
-
+    <link rel="stylesheet" href="test.css">
+    <link rel="icon" href="starred.png">
 </head>
-
 <body>
     <div class="main">
-        <button onclick="window.location.href='dana.html';" class="link">Next Game</button>
-        <button onClick="window.location.reload();" class="play">Play Again</button>
-        <div class="featureOne"><img src="head.jpg"></div>
-        <!-- <div class="featureTwo"><img src="ins.jpg"></div> -->
-        <div class="imgOne"><img src="three.png"></div>
-        <div class="imgtwo"><img src="one.png"></div>
-        <div class="imgThree"><img src="two.png"></div>
-        <!-- <audio><source src="hellow.mp3" type="audio/mpeg"> -->
-        <embed name= "hellow" src="hellow.mp3" width="2" height="0" loop="true" autostart="true" hidden="true" > <embed/>
-        <!-- <noembed> <bgsound src="hellow.mp3" loop="infinite"> </noembed> -->
-        <div class="slideshow-container">
+        <button onclick="window.location.href='akshara.html';" class="link">Hocus Pocus</button>
 
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 5</div>
-                <img src="ins.jpg" style="width:100%">
-              </div>
-
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 5</div>
-              <img src="devider/one.jpg" style="width:100%">
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 5</div>
-              <img src="devider/two.jpg" style="width:100%">
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext">4 / 5</div>
-              <img src="devider/three.jpg" style="width:100%">
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">5 / 5</div>
-                <img src="devider/four.jpg" style="width:100%">
-              </div>
-            
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-            </div>
-            <br>
-            
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span>
-              <span class="dot" onclick="currentSlide(4)"></span>
-              <span class="dot" onclick="currentSlide(5)"></span>   
-            </div>
-            
-            <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
-            
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
-            
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
-            }
-            
-            function showSlides(n) {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
-              if (n > slides.length) {slideIndex = 1}    
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                  slides[i].style.display = "none";  
-              }
-              for (i = 0; i < dots.length; i++) {
-                  dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-            }
-            </script>
-        <!-- <div class="imgtwo"><img src="one.png"></div> -->
-        <!-- <div class="right"><img src="right.png"></div> -->
-
-        <!-- <audio controls autoplay loop>
-            <source src="hellow.mp3" type="audio/ogg">
-            <embed src="hellow.mp3" autostart="true" loop="true" hidden="true"> 
-        </audio> -->
-
-
-        <!-- <script type="text/javascript">
-          $ (document).ready(function(){
-        
-           $(".btn .fa-play-circle-o").on('click',function(){
-            $(this).hide();
-            $(".fa-pause-circle-o").fadeIn();
-              $("#mymusic")[0].play();
-           });
-        
-           $(".butn .fa-pause-circle-o").on('click',function(){
-            $(this).hide();
-            $(".fa-play-circle-o").fadeIn();
-              $("#mymusic")[0].pause();
-           });
-        
-         });
-         </script>
-        
-        <div class="bg-music">
-        <audio id="mymusic" src="hellow.mp3" >
-        
-        </audio>
-        <button class="butn">
-        <i class="fa fa-play-circle-o"></i>
-        <i class="fa fa-pause-circle-o"></i>
-        </button>
-        
-        </div> -->
+        <div class="container">
+          <div class = "header">
+            <h1>   </h1>
+            <h1>  ccccccccccccccc </h1>
+            <h1> cccccccccccccc  </h1>
+            <h1> cccccccccccccc  </h1>
+          </div>
+          <span class="text1">Magical tricks awaits ahead!</span>
+          <span class="text2"> > PROCEED WITH CURIOSITY < </span>
+      </div>
 
     </div>
-    </div>
+    
 </body>
-
 </html>
+
+
+
