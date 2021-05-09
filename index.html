@@ -21,12 +21,82 @@
         <button onclick="window.location.href='dana.html';" class="link">Next Game</button>
         <button onClick="window.location.reload();" class="play">Play Again</button>
         <div class="featureOne"><img src="head.jpg"></div>
-        <div class="featureTwo"><img src="ins.jpg"></div>
+        <!-- <div class="featureTwo"><img src="ins.jpg"></div> -->
         <div class="imgOne"><img src="three.png"></div>
-        <div class="imgTwo"><img src="one.png"></div>
+        <div class="imgtwo"><img src="one.png"></div>
         <div class="imgThree"><img src="two.png"></div>
         <audio><source src="hellow.mp3" type="audio/mpeg">
         <embed src="hellow.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" /></audio>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="ins.jpg" style="width:100%">
+              </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <img src="devider/one.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <img src="devider/two.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 5</div>
+              <img src="devider/three.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="devider/four.jpg" style="width:100%">
+              </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>   
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+        <!-- <div class="imgtwo"><img src="one.png"></div> -->
         <!-- <div class="right"><img src="right.png"></div> -->
 
         <!-- <audio controls autoplay loop>
