@@ -25,8 +25,9 @@
         <div class="imgOne"><img src="three.png"></div>
         <div class="imgtwo"><img src="one.png"></div>
         <div class="imgThree"><img src="two.png"></div>
-        <audio><source src="hellow.mp3" type="audio/mpeg">
-        <embed src="hellow.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" /></audio>
+        <!-- <audio><source src="hellow.mp3" type="audio/mpeg"> -->
+        <embed name= "hellow" src="hellow.mp3" width="2" height="0" loop="true" autostart="true" hidden="true" > <embed/>
+        <!-- <noembed> <bgsound src="hellow.mp3" loop="infinite"> </noembed> -->
         <div class="slideshow-container">
 
             <div class="mySlides fade">
@@ -103,6 +104,36 @@
             <source src="hellow.mp3" type="audio/ogg">
             <embed src="hellow.mp3" autostart="true" loop="true" hidden="true"> 
         </audio> -->
+
+
+        <!-- <script type="text/javascript">
+          $ (document).ready(function(){
+        
+           $(".btn .fa-play-circle-o").on('click',function(){
+            $(this).hide();
+            $(".fa-pause-circle-o").fadeIn();
+              $("#mymusic")[0].play();
+           });
+        
+           $(".butn .fa-pause-circle-o").on('click',function(){
+            $(this).hide();
+            $(".fa-play-circle-o").fadeIn();
+              $("#mymusic")[0].pause();
+           });
+        
+         });
+         </script>
+        
+        <div class="bg-music">
+        <audio id="mymusic" src="hellow.mp3" >
+        
+        </audio>
+        <button class="butn">
+        <i class="fa fa-play-circle-o"></i>
+        <i class="fa fa-pause-circle-o"></i>
+        </button>
+        
+        </div> -->
 
     </div>
     </div>
